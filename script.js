@@ -3,7 +3,7 @@ function decimalToBinary(num) {
 	
   let arr = [];
 	while(num!==0 || num!==1){
-		var biDi = num%2
+		var biDi = num%2;
 		arr.push(biDi);
 		num=Math.trunc(num/2);
 	}
